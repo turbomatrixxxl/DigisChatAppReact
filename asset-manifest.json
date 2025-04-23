@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/DigisChatAppReact/static/css/main.48d8b0bd.css",
-    "main.js": "/DigisChatAppReact/static/js/main.9db9958f.js",
-    "static/css/431.8e297ab3.chunk.css": "/DigisChatAppReact/static/css/431.8e297ab3.chunk.css",
-    "static/js/431.e3045a1e.chunk.js": "/DigisChatAppReact/static/js/431.e3045a1e.chunk.js",
+    "main.css": "/DigisChatAppReact/static/css/main.3789e25f.css",
+    "main.js": "/DigisChatAppReact/static/js/main.78bc59c4.js",
+    "static/css/431.84d1752b.chunk.css": "/DigisChatAppReact/static/css/431.84d1752b.chunk.css",
+    "static/js/431.7f68fad8.chunk.js": "/DigisChatAppReact/static/js/431.7f68fad8.chunk.js",
     "static/js/453.ca2aa976.chunk.js": "/DigisChatAppReact/static/js/453.ca2aa976.chunk.js",
     "index.html": "/DigisChatAppReact/index.html",
-    "main.48d8b0bd.css.map": "/DigisChatAppReact/static/css/main.48d8b0bd.css.map",
-    "main.9db9958f.js.map": "/DigisChatAppReact/static/js/main.9db9958f.js.map",
-    "431.8e297ab3.chunk.css.map": "/DigisChatAppReact/static/css/431.8e297ab3.chunk.css.map",
-    "431.e3045a1e.chunk.js.map": "/DigisChatAppReact/static/js/431.e3045a1e.chunk.js.map",
+    "main.3789e25f.css.map": "/DigisChatAppReact/static/css/main.3789e25f.css.map",
+    "main.78bc59c4.js.map": "/DigisChatAppReact/static/js/main.78bc59c4.js.map",
+    "431.84d1752b.chunk.css.map": "/DigisChatAppReact/static/css/431.84d1752b.chunk.css.map",
+    "431.7f68fad8.chunk.js.map": "/DigisChatAppReact/static/js/431.7f68fad8.chunk.js.map",
     "453.ca2aa976.chunk.js.map": "/DigisChatAppReact/static/js/453.ca2aa976.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48d8b0bd.css",
-    "static/js/main.9db9958f.js"
+    "static/css/main.3789e25f.css",
+    "static/js/main.78bc59c4.js"
   ]
 }
