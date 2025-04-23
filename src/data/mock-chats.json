@@ -1,0 +1,428 @@
+[
+  {
+    "id": "chat-1",
+    "user": {
+      "id": "user-1",
+      "avatar": "https://avatar.iran.liara.run/public/40",
+      "name": "Henry Dholi",
+      "isOnline": true
+    },
+    "messages": [
+      {
+        "id": "message-1",
+        "content": "Mauris quis diam nec sapien molestie congue vel sed lectus",
+        "isInbox": false,
+        "sentAt": "2025-03-29T00:00:00.190Z"
+      },
+      {
+        "id": "message-2",
+        "content": "Aenean at magna et enim feugiat aliquet",
+        "isInbox": false,
+        "sentAt": "2025-03-29T11:01:11.190Z"
+      },
+      {
+        "id": "message-3",
+        "content": "Cras egestas ipsum vulputate velit luctus, vel aliquam magna pretium",
+        "isInbox": false,
+        "sentAt": "2025-03-29T12:02:22.190Z"
+      },
+      {
+        "id": "message-4",
+        "content": "Nullam et sem commodo, malesuada mi ut, hendrerit massa",
+        "isInbox": true,
+        "sentAt": "2025-03-29T13:03:33.190Z"
+      },
+      {
+        "id": "message-5",
+        "content": "Ut dictum sapien et nibh porta, et ultricies augue mollis",
+        "isInbox": true,
+        "sentAt": "2025-03-29T14:04:44.190Z"
+      },
+      {
+        "id": "message-6",
+        "content": "Vestibulum a nibh vel mauris tincidunt varius",
+        "isInbox": false,
+        "sentAt": "2025-03-29T15:05:55.190Z"
+      },
+      {
+        "id": "message-7",
+        "content": "Aliquam eu sem quis magna sollicitudin mattis",
+        "isInbox": true,
+        "sentAt": "2025-03-29T16:06:66.190Z"
+      },
+      {
+        "id": "message-8",
+        "content": "Quisque placerat ipsum eu tellus finibus dapibus",
+        "isInbox": true,
+        "sentAt": "2025-03-29T17:07:77.190Z"
+      },
+      {
+        "id": "message-9",
+        "content": "Quisque eget ligula sodales, lobortis augue ullamcorper, tempor nisl",
+        "isInbox": false,
+        "sentAt": "2025-03-29T18:08:88.190Z"
+      },
+      {
+        "id": "message-10",
+        "content": "Integer sagittis lorem nec felis feugiat lacinia",
+        "isInbox": false,
+        "sentAt": "2025-03-29T19:09:99.190Z"
+      }
+    ]
+  },
+  {
+    "id": "chat-2",
+    "user": {
+      "id": "user-2",
+      "avatar": "https://avatar.iran.liara.run/public/84",
+      "name": "Mariya Desoja",
+      "isOnline": true
+    },
+    "messages": [
+      {
+        "id": "message-1",
+        "content": "Morbi aliquam quam vel magna ornare, id lacinia turpis interdum",
+        "isInbox": true,
+        "sentAt": "2025-03-29T00:00:00.190Z"
+      },
+      {
+        "id": "message-2",
+        "content": "Integer at nisi fermentum, luctus mi ac, feugiat nulla",
+        "isInbox": false,
+        "sentAt": "2025-03-29T11:01:11.190Z"
+      },
+      {
+        "id": "message-3",
+        "content": "Aenean vulputate ex nec arcu efficitur, nec molestie lacus sodales",
+        "isInbox": false,
+        "sentAt": "2025-03-29T12:02:22.190Z"
+      },
+      {
+        "id": "message-4",
+        "content": "Aliquam commodo metus ornare molestie consectetur",
+        "isInbox": true,
+        "sentAt": "2025-03-29T13:03:33.190Z"
+      },
+      {
+        "id": "message-5",
+        "content": "Etiam ac purus placerat, dignissim mauris ut, tempor sem",
+        "isInbox": false,
+        "sentAt": "2025-03-29T14:04:44.190Z"
+      },
+      {
+        "id": "message-6",
+        "content": "Donec lacinia dui et diam faucibus, a laoreet dui lacinia",
+        "isInbox": false,
+        "sentAt": "2025-03-29T15:05:55.190Z"
+      },
+      {
+        "id": "message-7",
+        "content": "Sed laoreet sapien accumsan dictum tristique",
+        "isInbox": false,
+        "sentAt": "2025-03-29T16:06:66.190Z"
+      },
+      {
+        "id": "message-8",
+        "content": "Aliquam tempor felis sed aliquam cursus",
+        "isInbox": true,
+        "sentAt": "2025-03-29T17:07:77.190Z"
+      },
+      {
+        "id": "message-9",
+        "content": "Donec posuere ante sit amet ultrices accumsan",
+        "isInbox": true,
+        "sentAt": "2025-03-29T18:08:88.190Z"
+      },
+      {
+        "id": "message-10",
+        "content": "In malesuada est a sem sodales viverra eget ac metus",
+        "isInbox": false,
+        "sentAt": "2025-03-29T19:09:99.190Z"
+      }
+    ]
+  },
+  {
+    "id": "chat-3",
+    "user": {
+      "id": "user-3",
+      "avatar": "https://avatar.iran.liara.run/public/16",
+      "name": "Robert Jhon",
+      "isOnline": false
+    },
+    "messages": [
+      {
+        "id": "message-1",
+        "content": "Sed vehicula justo non neque volutpat laoreet",
+        "isInbox": true,
+        "sentAt": "2025-03-29T00:00:00.190Z"
+      },
+      {
+        "id": "message-2",
+        "content": "Fusce pharetra enim ut sem placerat interdum",
+        "isInbox": true,
+        "sentAt": "2025-03-29T11:01:11.190Z"
+      },
+      {
+        "id": "message-3",
+        "content": "Aliquam elementum sem et risus congue, ut luctus mi ultricies",
+        "isInbox": true,
+        "sentAt": "2025-03-29T12:02:22.190Z"
+      },
+      {
+        "id": "message-4",
+        "content": "Quisque facilisis lectus in risus malesuada, vitae dictum justo vehicula",
+        "isInbox": true,
+        "sentAt": "2025-03-29T13:03:33.190Z"
+      },
+      {
+        "id": "message-5",
+        "content": "Maecenas vitae justo non augue pharetra pulvinar",
+        "isInbox": true,
+        "sentAt": "2025-03-29T14:04:44.190Z"
+      },
+      {
+        "id": "message-6",
+        "content": "Proin sed dui sit amet est volutpat commodo at sed dolor",
+        "isInbox": false,
+        "sentAt": "2025-03-29T15:05:55.190Z"
+      },
+      {
+        "id": "message-7",
+        "content": "Cras non orci tincidunt augue ullamcorper porttitor",
+        "isInbox": false,
+        "sentAt": "2025-03-29T16:06:66.190Z"
+      },
+      {
+        "id": "message-8",
+        "content": "Nunc euismod sem non ligula rutrum, non posuere tellus ultrices",
+        "isInbox": false,
+        "sentAt": "2025-03-29T17:07:77.190Z"
+      },
+      {
+        "id": "message-9",
+        "content": "Curabitur interdum ante non ligula auctor, at fringilla libero pharetra",
+        "isInbox": false,
+        "sentAt": "2025-03-29T18:08:88.190Z"
+      },
+      {
+        "id": "message-10",
+        "content": "Phasellus hendrerit ligula ac placerat condimentum",
+        "isInbox": false,
+        "sentAt": "2025-03-29T19:09:99.190Z"
+      }
+    ]
+  },
+  {
+    "id": "chat-4",
+    "user": {
+      "id": "user-4",
+      "avatar": "https://avatar.iran.liara.run/public/95",
+      "name": "Cody Fisher",
+      "isOnline": true
+    },
+    "messages": [
+      {
+        "id": "message-1",
+        "content": "Praesent vitae diam vulputate, vulputate dolor eu, ullamcorper sem",
+        "isInbox": false,
+        "sentAt": "2025-03-29T00:00:00.190Z"
+      },
+      {
+        "id": "message-2",
+        "content": "Duis cursus ex a nunc ultrices blandit",
+        "isInbox": true,
+        "sentAt": "2025-03-29T11:01:11.190Z"
+      },
+      {
+        "id": "message-3",
+        "content": "Quisque ultricies erat a purus feugiat sodales",
+        "isInbox": false,
+        "sentAt": "2025-03-29T12:02:22.190Z"
+      },
+      {
+        "id": "message-4",
+        "content": "Vestibulum non metus quis ante venenatis consequat",
+        "isInbox": true,
+        "sentAt": "2025-03-29T13:03:33.190Z"
+      },
+      {
+        "id": "message-5",
+        "content": "Phasellus ut diam elementum, malesuada quam eget, ornare dolor",
+        "isInbox": false,
+        "sentAt": "2025-03-29T14:04:44.190Z"
+      },
+      {
+        "id": "message-6",
+        "content": "Aenean in eros tincidunt, vulputate augue et, finibus mauris",
+        "isInbox": true,
+        "sentAt": "2025-03-29T15:05:55.190Z"
+      },
+      {
+        "id": "message-7",
+        "content": "Pellentesque eu sem aliquam, porttitor nisl et, eleifend arcu",
+        "isInbox": true,
+        "sentAt": "2025-03-29T16:06:66.190Z"
+      },
+      {
+        "id": "message-8",
+        "content": "Donec non ipsum sed dui dignissim faucibus at non tellus",
+        "isInbox": false,
+        "sentAt": "2025-03-29T17:07:77.190Z"
+      },
+      {
+        "id": "message-9",
+        "content": "Donec sed nisl luctus ligula semper ultrices",
+        "isInbox": true,
+        "sentAt": "2025-03-29T18:08:88.190Z"
+      },
+      {
+        "id": "message-10",
+        "content": "Sed suscipit erat at sem blandit, quis facilisis velit dapibus",
+        "isInbox": false,
+        "sentAt": "2025-03-29T19:09:99.190Z"
+      }
+    ]
+  },
+  {
+    "id": "chat-5",
+    "user": {
+      "id": "user-5",
+      "avatar": "https://avatar.iran.liara.run/public/21",
+      "name": "Cristofer Donin",
+      "isOnline": false
+    },
+    "messages": [
+      {
+        "id": "message-1",
+        "content": "Duis quis erat eu risus commodo porttitor eu vel est",
+        "isInbox": false,
+        "sentAt": "2025-03-29T00:00:00.190Z"
+      },
+      {
+        "id": "message-2",
+        "content": "Donec sed lacus blandit arcu malesuada fringilla sit amet vel justo",
+        "isInbox": false,
+        "sentAt": "2025-03-29T11:01:11.190Z"
+      },
+      {
+        "id": "message-3",
+        "content": "Curabitur nec purus nec purus tempus commodo",
+        "isInbox": true,
+        "sentAt": "2025-03-29T12:02:22.190Z"
+      },
+      {
+        "id": "message-4",
+        "content": "Etiam finibus nulla ac odio scelerisque, vel feugiat arcu condimentum",
+        "isInbox": true,
+        "sentAt": "2025-03-29T13:03:33.190Z"
+      },
+      {
+        "id": "message-5",
+        "content": "Suspendisse in dui tincidunt, malesuada quam in, ullamcorper quam",
+        "isInbox": false,
+        "sentAt": "2025-03-29T14:04:44.190Z"
+      },
+      {
+        "id": "message-6",
+        "content": "Vestibulum sodales lacus non tincidunt efficitur",
+        "isInbox": false,
+        "sentAt": "2025-03-29T15:05:55.190Z"
+      },
+      {
+        "id": "message-7",
+        "content": "Integer eget ex sit amet arcu blandit aliquet sit amet nec sapien",
+        "isInbox": true,
+        "sentAt": "2025-03-29T16:06:66.190Z"
+      },
+      {
+        "id": "message-8",
+        "content": "Aliquam quis ex quis enim consectetur luctus eu in neque",
+        "isInbox": false,
+        "sentAt": "2025-03-29T17:07:77.190Z"
+      },
+      {
+        "id": "message-9",
+        "content": "Mauris rutrum felis ac nisi tincidunt, ac pharetra ligula vestibulum",
+        "isInbox": false,
+        "sentAt": "2025-03-29T18:08:88.190Z"
+      },
+      {
+        "id": "message-10",
+        "content": "In volutpat lacus sit amet ipsum accumsan efficitur",
+        "isInbox": true,
+        "sentAt": "2025-03-29T19:09:99.190Z"
+      }
+    ]
+  },
+  {
+    "id": "chat-6",
+    "user": {
+      "id": "user-6",
+      "avatar": "https://avatar.iran.liara.run/public/100",
+      "name": "Marcus Siphron",
+      "isOnline": true
+    },
+    "messages": [
+      {
+        "id": "message-1",
+        "content": "Fusce sodales leo eu varius pretium",
+        "isInbox": false,
+        "sentAt": "2025-03-29T00:00:00.190Z"
+      },
+      {
+        "id": "message-2",
+        "content": "Suspendisse ac nulla a turpis laoreet porttitor",
+        "isInbox": true,
+        "sentAt": "2025-03-29T11:01:11.190Z"
+      },
+      {
+        "id": "message-3",
+        "content": "In at nisi non nunc fermentum ultrices in malesuada justo",
+        "isInbox": true,
+        "sentAt": "2025-03-29T12:02:22.190Z"
+      },
+      {
+        "id": "message-4",
+        "content": "Maecenas venenatis diam et sem faucibus mollis non at sapien",
+        "isInbox": false,
+        "sentAt": "2025-03-29T13:03:33.190Z"
+      },
+      {
+        "id": "message-5",
+        "content": "Morbi malesuada velit vitae quam volutpat, non lacinia massa rhoncus",
+        "isInbox": false,
+        "sentAt": "2025-03-29T14:04:44.190Z"
+      },
+      {
+        "id": "message-6",
+        "content": "Nullam interdum velit pellentesque pharetra ullamcorper",
+        "isInbox": false,
+        "sentAt": "2025-03-29T15:05:55.190Z"
+      },
+      {
+        "id": "message-7",
+        "content": "Maecenas et lorem vel libero accumsan iaculis",
+        "isInbox": true,
+        "sentAt": "2025-03-29T16:06:66.190Z"
+      },
+      {
+        "id": "message-8",
+        "content": "Donec cursus neque nec libero vulputate blandit",
+        "isInbox": true,
+        "sentAt": "2025-03-29T17:07:77.190Z"
+      },
+      {
+        "id": "message-9",
+        "content": "Cras feugiat nulla ac faucibus vestibulum",
+        "isInbox": true,
+        "sentAt": "2025-03-29T18:08:88.190Z"
+      },
+      {
+        "id": "message-10",
+        "content": "Etiam lacinia lacus eget massa egestas egestas",
+        "isInbox": false,
+        "sentAt": "2025-03-29T19:09:99.190Z"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+.cont {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.main {
+  flex-grow: 1;
+  background: transparent;
+}
