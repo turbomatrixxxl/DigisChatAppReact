@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/DigisChatAppReact/static/css/main.48d8b0bd.css",
-    "main.js": "/DigisChatAppReact/static/js/main.69694b79.js",
-    "static/css/431.8e297ab3.chunk.css": "/DigisChatAppReact/static/css/431.8e297ab3.chunk.css",
-    "static/js/431.df8b0c7d.chunk.js": "/DigisChatAppReact/static/js/431.df8b0c7d.chunk.js",
-    "static/js/453.84735f90.chunk.js": "/DigisChatAppReact/static/js/453.84735f90.chunk.js",
+    "main.css": "/DigisChatAppReact/static/css/main.84dd665d.css",
+    "main.js": "/DigisChatAppReact/static/js/main.96eb3dcf.js",
+    "static/css/431.84d1752b.chunk.css": "/DigisChatAppReact/static/css/431.84d1752b.chunk.css",
+    "static/js/431.7f68fad8.chunk.js": "/DigisChatAppReact/static/js/431.7f68fad8.chunk.js",
+    "static/js/453.ca2aa976.chunk.js": "/DigisChatAppReact/static/js/453.ca2aa976.chunk.js",
+    "static/media/Radu.webp": "/DigisChatAppReact/static/media/Radu.81d208868a8e3740db5e.webp",
     "index.html": "/DigisChatAppReact/index.html",
-    "main.48d8b0bd.css.map": "/DigisChatAppReact/static/css/main.48d8b0bd.css.map",
-    "main.69694b79.js.map": "/DigisChatAppReact/static/js/main.69694b79.js.map",
-    "431.8e297ab3.chunk.css.map": "/DigisChatAppReact/static/css/431.8e297ab3.chunk.css.map",
-    "431.df8b0c7d.chunk.js.map": "/DigisChatAppReact/static/js/431.df8b0c7d.chunk.js.map",
-    "453.84735f90.chunk.js.map": "/DigisChatAppReact/static/js/453.84735f90.chunk.js.map"
+    "main.84dd665d.css.map": "/DigisChatAppReact/static/css/main.84dd665d.css.map",
+    "main.96eb3dcf.js.map": "/DigisChatAppReact/static/js/main.96eb3dcf.js.map",
+    "431.84d1752b.chunk.css.map": "/DigisChatAppReact/static/css/431.84d1752b.chunk.css.map",
+    "431.7f68fad8.chunk.js.map": "/DigisChatAppReact/static/js/431.7f68fad8.chunk.js.map",
+    "453.ca2aa976.chunk.js.map": "/DigisChatAppReact/static/js/453.ca2aa976.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48d8b0bd.css",
-    "static/js/main.69694b79.js"
+    "static/css/main.84dd665d.css",
+    "static/js/main.96eb3dcf.js"
   ]
 }
