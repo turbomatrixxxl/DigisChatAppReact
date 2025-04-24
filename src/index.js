@@ -10,7 +10,7 @@ import "./styles/variables.css";
 
 // Use the correct basename based on the environment
 const basename =
-  process.env.NODE_ENV === "production" ? "/DigisCatAppReact" : "/";
+  process.env.NODE_ENV === "production" ? "/DigisChatAppReact" : "/";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
