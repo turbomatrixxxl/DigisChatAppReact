@@ -8,7 +8,7 @@ const Logo = ({ variant = "default" }) => {
       className={`${styles.logo} ${styles[variant] || styles.default}`}
       to="/"
     >
-      <span>Health</span>
+      <span>Sandbox</span>
     </Link>
   );
 };

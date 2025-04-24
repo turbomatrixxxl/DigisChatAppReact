@@ -11,8 +11,8 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div onClick={handleTextClick} className={styles.footerText}>
-        <p>℗ & © NRB 2025</p>
-        <p>Powered by Naramzoiu Radu Bogdan </p>
+        <p>℗ & © Digis 2025</p>
+        <p>Powered by Radu Bogdan Naramzoiu</p>
       </div>
       {modalOpen && <Modal closeModal={() => setModalOpen(false)} />}
     </footer>

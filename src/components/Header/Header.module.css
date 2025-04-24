@@ -1,14 +1,13 @@
 @import "../../styles/variables.css";
 
 .header {
-  background: transparent;
-  border-bottom: 2px solid #e0e0e0;
-  display: flex;
-  height: 80px;
-  justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
-  padding: 0 20px;
+  background: transparent;
+  border-bottom: 1px solid var(--Stroke);
+  display: flex;
+  height: 88px;
+  justify-content: space-between;
+  padding: 0 30px;
   width: -webkit-fill-available;
 }
 
@@ -20,59 +19,19 @@
   /* width: -webkit-fill-available; */
 }
 
-.loggedLeft {
-  width: -webkit-fill-available;
-}
-
-.rightCont {
+.rightContButton {
+  align-items: center;
+  background: transparent;
+  border: none;
   display: flex;
-  gap: 48px;
+  height: fit-content;
+  justify-content: center;
+  width: fit-content;
 }
 
-.link {
+.button {
   align-items: center;
   display: flex;
-}
-
-@media screen and (width >=768px) {
-  .header {
-    height: 80px;
-    padding: 0 32px;
-  }
-}
-
-@media screen and (width >=1024px) {
-  .header {
-    align-items: flex-end;
-    border: none;
-    /* gap: 20px; */
-    height: fit-content;
-    justify-content: flex-start;
-    padding: 0 16px;
-    padding-right: 0;
-    margin: 0;
-    width: -webkit-fill-available;
-  }
-
-  .loggedHeader {
-    display: none;
-  }
-
-  .leftCont {
-    align-items: baseline;
-    gap: 20px;
-    justify-content: flex-start;
-  }
-
-  .rightCont {
-    display: none;
-  }
-
-  .rightDesktopCont {
-    background: lightgray;
-    display: flex;
-    height: 100%;
-    justify-content: end;
-    width: 40%;
-  }
+  justify-content: center;
+  fill: var(--Text-color);
 }

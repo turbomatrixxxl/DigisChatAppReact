@@ -19,27 +19,6 @@ function App() {
           {/* Public Routes */}
           <Route index element={<LazyHomePage />} />
 
-          {/* Private Routes */}
-          {/* <Route
-            path="/calculator"
-            element={
-              <PrivateRoute
-                component={<LazyCalculatorPage />}
-                redirectTo="/verify-email"
-              />
-            }
-          />
-
-          <Route
-            path="/diary"
-            element={
-              <PrivateRoute
-                component={<LazyDiaryPage />}
-                redirectTo="/verify-email"
-              />
-            }
-          /> */}
-
           {/* Catch-All */}
           <Route path="*" element={<NotFoundPage />} />
         </Route>

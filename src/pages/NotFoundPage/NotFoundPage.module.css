@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import "../../styles/variables.css";
 
 .notfoundSection {
@@ -29,7 +29,7 @@
 }
 
 .notfound .notfound-404 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 250px;
   margin: 0px;
   font-weight: 900;
@@ -47,7 +47,7 @@
 }
 
 .notfound h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #000;
   font-size: 27px;
   font-weight: 700;
@@ -57,7 +57,7 @@
 }
 
 .notfound p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #000;
   font-size: 14px;
   font-weight: 400;
@@ -67,7 +67,7 @@
 }
 
 .notfound a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   text-decoration: none;
   text-transform: uppercase;
@@ -94,30 +94,14 @@
   color: black;
 }
 
-@media only screen and (max-width: 767px) {
-  .notfound .notfound-404 {
-    height: 142px;
-  }
-
-  .notfound .notfound-404 h1 {
-    font-size: 112px;
-  }
-
-  .notfound h2 {
-    font-size: 20px;
-  }
+.notfoundSection {
+  background: transparent;
 }
 
-@media only screen and (min-width: 767px) {
-  .notfoundSection {
-    background: transparent;
-  }
+.notfound .notfound-404 h1 {
+  font-size: 160px;
+}
 
-  .notfound .notfound-404 h1 {
-    font-size: 230px;
-  }
-
-  .notfound .notfound-404 {
-    height: 250px;
-  }
+.notfound .notfound-404 {
+  height: 170px;
 }

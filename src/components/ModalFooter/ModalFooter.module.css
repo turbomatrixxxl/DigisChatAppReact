@@ -77,20 +77,8 @@
   justify-content: space-between;
 }
 
-.footerTeamCard.Dragos {
+.footerTeamCard.Radu {
   animation-delay: 0.5s;
-}
-
-.footerTeamCard.catalin {
-  animation-delay: 1.5s;
-}
-
-.footerTeamCard.Radu{
-  animation-delay: 2.5s;
-}
-
-.footerTeamCard.Stefan {
-  animation-delay: 3.5s;
 }
 
 .footerTeamCard em {
