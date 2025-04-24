@@ -1,9 +1,10 @@
 {
-  "name": "chat",
+  "name": "sandbox",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://turbomatrixxxl.github.io/DigisChatAppReact/",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "@fortawesome/fontawesome-svg-core": "^6.7.0",
     "@fortawesome/free-brands-svg-icons": "^6.7.0",
     "@fortawesome/free-regular-svg-icons": "^6.7.0",
