@@ -69,6 +69,7 @@
   display: flex;
   height: fit-content;
   justify-content: center;
+  margin-left: auto;
   width: fit-content;
 }
 
