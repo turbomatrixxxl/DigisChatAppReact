@@ -19,8 +19,51 @@
   /* width: -webkit-fill-available; */
 }
 
+.chatInfo {
+  /* align-items: center; */
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.avatar {
+  border-radius: 52px;
+  flex-shrink: 0;
+  height: 52px;
+  width: 52px;
+}
+
+.usersInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.userName {
+  color: var(--Dark, #1c2434);
+
+  /* 16 Medium */
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.reply {
+  color: var(--Text-color, #64748b);
+
+  /* 14 Medium */
+  font-family: Satoshi;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+}
+
 .rightContButton {
   align-items: center;
+  cursor: pointer;
   background: transparent;
   border: none;
   display: flex;

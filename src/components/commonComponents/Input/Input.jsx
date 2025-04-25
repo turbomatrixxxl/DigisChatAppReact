@@ -17,6 +17,7 @@ export default function Input({
   paddingLeft,
   autoComplete,
   handleBlur,
+  children,
 }) {
   return (
     <div style={{ width: width || "auto" }} className={styles.inputContainer}>
@@ -36,6 +37,7 @@ export default function Input({
         value={value || ""}
         onBlur={handleBlur}
       />
+      {children}
     </div>
   );
 }
@@ -51,4 +53,5 @@ Input.propTypes = {
   handleChange: PropTypes.func,
   required: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]),
   placeholder: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+  children: PropTypes.element,
 };

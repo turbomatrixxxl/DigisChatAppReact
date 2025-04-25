@@ -1,0 +1,95 @@
+@import "../../styles/variables.css";
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  list-style: none;
+  padding-left: 0;
+  /* overflow-y: auto; */
+  width: 100%;
+}
+
+.listItem {
+  align-items: center;
+  border-radius: 5px;
+  background: var(--White, #fff);
+  display: flex;
+  gap: 14px;
+  margin-right: 5px;
+  padding: 9px 15px;
+  text-decoration: none;
+}
+
+.active {
+  background: var(--Gray);
+}
+
+.imgCont {
+  align-items: center;
+  background: transparent;
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+
+.userImg {
+  border-radius: 44px;
+  /* background: url(<path-to-image>) lightgray 50% / cover no-repeat; */
+  flex-shrink: 0;
+  height: 44px;
+  width: 44px;
+}
+
+.isOnline {
+  border-radius: 50%;
+  border: solid 2px var(--Gray-2);
+  height: 12px;
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+  width: 12px;
+}
+
+.online {
+  background: var(--Green);
+}
+
+.notOnline {
+  background: var(--Red);
+}
+
+.infoCont {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  width: -webkit-fill-available;
+}
+
+.name {
+  color: var(--Dark, #1c2434);
+
+  /* 14 Medium */
+  font-family: Satoshi;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+}
+
+.lastMessage {
+  color: var(--LastMessage);
+
+  /* 14 Medium */
+  font-family: Satoshi;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

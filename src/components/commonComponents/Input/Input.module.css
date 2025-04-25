@@ -1,27 +1,21 @@
 @import "../../../styles/variables.css";
 
 .inputContainer {
+  position: relative;
   align-items: center;
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid var(--Gray-5);
+  border-radius: 6px;
+  border: 1px solid var(--Stroke, #e2e8f0);
+  background: var(--Gray, #eff4fb);
   display: flex;
-  outline: none;
+  height: fit-content;
 }
 
 .input {
   background: transparent;
   border: none;
-  /* color: var(--gray-text-color); */
-  font-family: Verdana;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.56px;
-  min-width: 240px;
+  height: fit-content;
   outline: none;
-  padding: 8px 0;
+  width: 100%;
 }
 
 .inputCenter {

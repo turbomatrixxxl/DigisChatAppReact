@@ -13,30 +13,23 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--Gray-5);
+  background: var(--Gray);
   /* Background of the scrollbar track */
   border-radius: 10px;
   /* Rounded edges */
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--brand-color);
+  background-color: var(--TailGrids-Text-Color);
   /* Color of the scrollbar thumb */
   border-radius: 10px;
   /* Rounded edges */
   border: none;
   /* Border to match track */
   cursor: pointer;
+  transition: all 0.35s ease-in-out;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--brand-color);
+  background-color: var(--Green);
 }
-
-/* @media screen and (width >= 768px) {
-  
-}
-
-@media screen and (width >= 1024px) {
-  
-} */

@@ -1,13 +1,6 @@
 @import "../../styles/variables.css";
 
 .cont {
-  border-radius: 2px;
-  border: 1px solid var(--Stroke, #e2e8f0);
-  background: var(--White, #fff);
-
-  /* Shadow */
-  box-shadow: 0px 8px 13px -3px rgba(0, 0, 0, 0.07);
-
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -16,6 +9,12 @@
 
 .mainContent {
   align-items: center;
+  border-radius: 2px;
+  border: 1px solid var(--Stroke, #e2e8f0);
+  background: var(--White, #fff);
+
+  /* Shadow */
+  box-shadow: 0px 8px 13px -3px rgba(0, 0, 0, 0.07);
   display: flex;
   justify-content: center;
   height: 100%;
@@ -35,6 +34,8 @@
 
 .aside {
   border-right: solid 1px var(--Stroke);
+  display: flex;
+  flex-direction: column;
   height: 100%;
   width: calc(100% * 0.27);
 }
@@ -43,6 +44,7 @@
   align-items: center;
   border-bottom: solid 1px var(--Stroke);
   display: flex;
+  gap: 58px;
   height: 88px;
   justify-content: space-between;
   padding: 0 30px 0 25px;
@@ -80,6 +82,52 @@
 .asideContent {
   display: flex;
   flex-direction: column;
+  gap: 25px;
+  justify-content: space-between;
+  overflow: hidden;
   padding: 30px 30px 84px 25px;
+}
+
+.asideInput {
+  color: var(--Text-color, #64748b);
+  cursor: pointer;
+  /* 14 Medium */
+  font-family: Satoshi;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+
+  padding: 12px 0 10px;
+  transition: all 0.35s ease-in-out;
+}
+
+.asideInput:hover,
+.asideInput:focus {
+  background: var(--Gray-2);
+}
+
+.asideInputButton {
+  background: transparent;
+  border: none;
+  /* cursor: pointer; */
+  outline: none;
+  position: absolute;
+  top: 50%;
+  right: 13px;
+  transform: translateY(-50%);
+}
+
+.asideInputSearchIcon {
+  background: transparent;
+  height: 18px;
+  width: 18px;
+  color: var(--Text-color);
+}
+
+.asideChatListCont {
+  display: flex;
+  flex-direction: column;
+  height: 270px;
   overflow-y: auto;
 }
