@@ -37,7 +37,7 @@ export default function Input({
         value={value || ""}
         onBlur={handleBlur}
       />
-      {children}
+      <>{children}</>
     </div>
   );
 }
@@ -53,5 +53,5 @@ Input.propTypes = {
   handleChange: PropTypes.func,
   required: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]),
   placeholder: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-  children: PropTypes.element,
+  children: PropTypes.node,
 };

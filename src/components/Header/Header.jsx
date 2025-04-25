@@ -13,7 +13,7 @@ import styles from "./Header.module.css";
 
 function Header() {
   const { chatId } = useParams();
-  console.log(chatId);
+  // console.log(chatId);
 
   const { chats } = useChats();
 

@@ -8,7 +8,7 @@ export const fetchData = createAsyncThunk(
   async (_, { rejectWithValue }) => {
     try {
       const response = await axios.get("/c/5c9a-2b01-4cee-b469");
-      console.log(response.data);
+      // console.log(response.data);
       return response?.data;
     } catch (error) {
       console.warn("API failed, using mock data:", error.message);

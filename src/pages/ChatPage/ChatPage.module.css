@@ -146,5 +146,6 @@
   flex-shrink: 0;
   height: 52px;
   justify-content: center;
+  outline: none;
   width: 52px;
 }

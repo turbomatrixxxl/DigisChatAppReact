@@ -1,20 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import { useDispatch } from "react-redux";
+import { updateChat } from "../../redux/public/chatsSlice";
 import { useParams } from "react-router-dom";
 import { useChats } from "../../hooks/useChats";
-
 import Input from "../../components/commonComponents/Input/Input";
 
-import { FaPaperclip } from "react-icons/fa"; // Paperclip icon
-import { FaRegSmile } from "react-icons/fa"; // Regular style smile icon
-import { FaPaperPlane } from "react-icons/fa"; // Send (paper plane) icon
+import { FaPaperclip, FaRegSmile, FaPaperPlane } from "react-icons/fa";
+import EmojiPicker from "emoji-picker-react";
 
 import styles from "./ChatPage.module.css";
 
 export default function ChatPage() {
   const { chatId } = useParams();
   const { chats } = useChats();
+  const dispatch = useDispatch();
 
   const [message, setMessage] = useState("");
+  const [showEmojiPicker, setShowEmojiPicker] = useState(false);
+  const fileInputRef = useRef();
 
   const selectedChat = chats.find((chat) => chat.id === chatId);
 
@@ -24,42 +27,67 @@ export default function ChatPage() {
 
   const formatTimestamp = (timestamp) => {
     let date = new Date(timestamp);
-
-    // If the timestamp is invalid, we'll try to adjust it
     if (isNaN(date.getTime())) {
-      // Try to trim or fix invalid timestamp parts (e.g., seconds out of range)
       const fixedTimestamp = timestamp.replace(
         /(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}):(\d{2})\.(\d{3})Z$/,
         "$1:59.$3Z"
       );
       date = new Date(fixedTimestamp);
     }
+    if (isNaN(date.getTime())) return "";
 
-    // Ensure the timestamp is valid after the fix
-    if (isNaN(date.getTime())) {
-      return ""; // If invalid even after attempting fix, just return empty string
-    }
+    if (date.getSeconds() > 59) date.setSeconds(59);
 
-    // Fix seconds if greater than 59
-    if (date.getSeconds() > 59) {
-      date.setSeconds(59);
-    }
-
-    // Format the time without seconds
     const formattedTime = date.toLocaleTimeString([], {
       hour: "2-digit",
       minute: "2-digit",
     });
 
-    // Format the date as 3March2025
     const day = date.getDate();
     const month = date.toLocaleString("default", { month: "long" });
     const year = date.getFullYear();
 
-    // Combine date and time
-    const formattedDate = `${day}${month}${year}`;
+    return `${day}${month}${year} ${formattedTime}`;
+  };
 
-    return `${formattedDate} ${formattedTime}`;
+  const handleSendMsg = () => {
+    if (!message.trim()) return;
+
+    dispatch(
+      updateChat({
+        chatId,
+        newMessages: [
+          {
+            id: crypto.randomUUID(),
+            content: message,
+            isInbox: false,
+            sentAt: new Date().toISOString(),
+          },
+        ],
+      })
+    );
+    setMessage("");
+    setShowEmojiPicker(false);
+  };
+
+  const handleAttachClick = () => {
+    fileInputRef.current.click();
+  };
+
+  const handleFileChange = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      console.log("Selected file:", file);
+      // Upload logic or preview logic goes here
+    }
+  };
+
+  const toggleEmojiPicker = () => {
+    setShowEmojiPicker((prev) => !prev);
+  };
+
+  const handleEmojiClick = (emojiData) => {
+    setMessage((prev) => prev + emojiData.emoji);
   };
 
   return (
@@ -88,6 +116,7 @@ export default function ChatPage() {
           )
         )}
       </ul>
+
       <div className={styles.sendMsgCont}>
         <Input
           width={"100%"}
@@ -97,14 +126,40 @@ export default function ChatPage() {
           value={message}
           handleChange={(e) => setMessage(e.target.value)}
         >
-          <button className={styles.writeMsgButton}>
+          <button
+            type="button"
+            className={styles.writeMsgButton}
+            onClick={handleAttachClick}
+          >
             <FaPaperclip className={styles.paperClipIcon} size={18} />
           </button>
-          <button className={styles.writeMsgButton}>
-            <FaRegSmile className={styles.smileIcon} size={18} />
-          </button>
+          <input
+            type="file"
+            ref={fileInputRef}
+            onChange={handleFileChange}
+            style={{ display: "none" }}
+          />
+
+          <div className={styles.emojiWrapper}>
+            <button
+              type="button"
+              className={styles.writeMsgButton}
+              onClick={() => {
+                toggleEmojiPicker();
+                console.log("click");
+              }}
+            >
+              <FaRegSmile className={styles.smileIcon} size={18} />
+            </button>
+            {showEmojiPicker && (
+              <div className={styles.emojiPicker}>
+                <EmojiPicker onEmojiClick={handleEmojiClick} />
+              </div>
+            )}
+          </div>
         </Input>
-        <button className={styles.sendMsgButton}>
+
+        <button className={styles.sendMsgButton} onClick={handleSendMsg}>
           <FaPaperPlane className={styles.sendIcon} size={24} />
         </button>
       </div>
