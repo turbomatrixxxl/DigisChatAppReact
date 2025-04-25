@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/DigisChatAppReact/static/css/main.bf9b29b3.css",
-    "main.js": "/DigisChatAppReact/static/js/main.bb56b099.js",
+    "main.css": "/DigisChatAppReact/static/css/main.95afc121.css",
+    "main.js": "/DigisChatAppReact/static/js/main.36b653f6.js",
     "static/css/431.8e297ab3.chunk.css": "/DigisChatAppReact/static/css/431.8e297ab3.chunk.css",
     "static/js/431.e3045a1e.chunk.js": "/DigisChatAppReact/static/js/431.e3045a1e.chunk.js",
-    "static/css/434.41ba9255.chunk.css": "/DigisChatAppReact/static/css/434.41ba9255.chunk.css",
+    "static/css/434.0864e669.chunk.css": "/DigisChatAppReact/static/css/434.0864e669.chunk.css",
     "static/js/434.89e5b13e.chunk.js": "/DigisChatAppReact/static/js/434.89e5b13e.chunk.js",
     "static/js/453.ca2aa976.chunk.js": "/DigisChatAppReact/static/js/453.ca2aa976.chunk.js",
     "static/media/Radu.webp": "/DigisChatAppReact/static/media/Radu.81d208868a8e3740db5e.webp",
     "index.html": "/DigisChatAppReact/index.html",
-    "main.bf9b29b3.css.map": "/DigisChatAppReact/static/css/main.bf9b29b3.css.map",
-    "main.bb56b099.js.map": "/DigisChatAppReact/static/js/main.bb56b099.js.map",
+    "main.95afc121.css.map": "/DigisChatAppReact/static/css/main.95afc121.css.map",
+    "main.36b653f6.js.map": "/DigisChatAppReact/static/js/main.36b653f6.js.map",
     "431.8e297ab3.chunk.css.map": "/DigisChatAppReact/static/css/431.8e297ab3.chunk.css.map",
     "431.e3045a1e.chunk.js.map": "/DigisChatAppReact/static/js/431.e3045a1e.chunk.js.map",
-    "434.41ba9255.chunk.css.map": "/DigisChatAppReact/static/css/434.41ba9255.chunk.css.map",
+    "434.0864e669.chunk.css.map": "/DigisChatAppReact/static/css/434.0864e669.chunk.css.map",
     "434.89e5b13e.chunk.js.map": "/DigisChatAppReact/static/js/434.89e5b13e.chunk.js.map",
     "453.ca2aa976.chunk.js.map": "/DigisChatAppReact/static/js/453.ca2aa976.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf9b29b3.css",
-    "static/js/main.bb56b099.js"
+    "static/css/main.95afc121.css",
+    "static/js/main.36b653f6.js"
   ]
 }
