@@ -149,3 +149,52 @@
   outline: none;
   width: 52px;
 }
+
+.emojiWrapper {
+  position: relative;
+}
+
+.emojiPicker {
+  position: absolute;
+  bottom: 40px; /* or how far above the icon you want */
+  right: 0;
+  z-index: 10;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-height: 300px;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.emojiPickerWrapper::-webkit-scrollbar {
+  width: 6px;
+}
+
+.emojiPickerWrapper::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.filePreview {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  max-width: 200px;
+  margin-left: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.imagePreview {
+  width: 100%;
+  height: auto;
+  max-height: 200px; /* Limit image size */
+  object-fit: cover;
+}
+
+.filePreview span {
+  display: block;
+  margin-top: 10px;
+  color: #666;
+}

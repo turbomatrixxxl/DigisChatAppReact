@@ -17,6 +17,7 @@ export default function ChatPage() {
 
   const [message, setMessage] = useState("");
   const [showEmojiPicker, setShowEmojiPicker] = useState(false);
+  const [file, setFile] = useState(null); // State for selected file
   const fileInputRef = useRef();
 
   const selectedChat = chats.find((chat) => chat.id === chatId);
@@ -47,7 +48,7 @@ export default function ChatPage() {
     const month = date.toLocaleString("default", { month: "long" });
     const year = date.getFullYear();
 
-    return `${day}${month}${year} ${formattedTime}`;
+    return `${day} ${month} ${year}-${formattedTime}`;
   };
 
   const handleSendMsg = () => {
@@ -68,6 +69,7 @@ export default function ChatPage() {
     );
     setMessage("");
     setShowEmojiPicker(false);
+    setFile(null); // Reset file state after sending the message
   };
 
   const handleAttachClick = () => {
@@ -75,10 +77,9 @@ export default function ChatPage() {
   };
 
   const handleFileChange = (e) => {
-    const file = e.target.files[0];
-    if (file) {
-      console.log("Selected file:", file);
-      // Upload logic or preview logic goes here
+    const selectedFile = e.target.files[0];
+    if (selectedFile) {
+      setFile(selectedFile); // Set the selected file to state
     }
   };
 
@@ -115,6 +116,20 @@ export default function ChatPage() {
             </li>
           )
         )}
+        {/* File preview section */}
+        {file && (
+          <li className={styles.filePreview}>
+            {file.type.startsWith("image/") ? (
+              <img
+                src={URL.createObjectURL(file)}
+                alt="File Preview"
+                className={styles.imagePreview}
+              />
+            ) : (
+              <span>{file.name}</span> // For non-image files
+            )}
+          </li>
+        )}
       </ul>
 
       <div className={styles.sendMsgCont}>
@@ -144,10 +159,7 @@ export default function ChatPage() {
             <button
               type="button"
               className={styles.writeMsgButton}
-              onClick={() => {
-                toggleEmojiPicker();
-                console.log("click");
-              }}
+              onClick={toggleEmojiPicker}
             >
               <FaRegSmile className={styles.smileIcon} size={18} />
             </button>
