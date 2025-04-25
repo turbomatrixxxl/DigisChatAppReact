@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DigisChatAppReact/static/css/main.95afc121.css",
+    "main.css": "/DigisChatAppReact/static/css/main.eed4c35f.css",
     "main.js": "/DigisChatAppReact/static/js/main.36b653f6.js",
     "static/css/431.8e297ab3.chunk.css": "/DigisChatAppReact/static/css/431.8e297ab3.chunk.css",
     "static/js/431.e3045a1e.chunk.js": "/DigisChatAppReact/static/js/431.e3045a1e.chunk.js",
@@ -9,7 +9,7 @@
     "static/js/453.ca2aa976.chunk.js": "/DigisChatAppReact/static/js/453.ca2aa976.chunk.js",
     "static/media/Radu.webp": "/DigisChatAppReact/static/media/Radu.81d208868a8e3740db5e.webp",
     "index.html": "/DigisChatAppReact/index.html",
-    "main.95afc121.css.map": "/DigisChatAppReact/static/css/main.95afc121.css.map",
+    "main.eed4c35f.css.map": "/DigisChatAppReact/static/css/main.eed4c35f.css.map",
     "main.36b653f6.js.map": "/DigisChatAppReact/static/js/main.36b653f6.js.map",
     "431.8e297ab3.chunk.css.map": "/DigisChatAppReact/static/css/431.8e297ab3.chunk.css.map",
     "431.e3045a1e.chunk.js.map": "/DigisChatAppReact/static/js/431.e3045a1e.chunk.js.map",
@@ -18,7 +18,7 @@
     "453.ca2aa976.chunk.js.map": "/DigisChatAppReact/static/js/453.ca2aa976.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95afc121.css",
+    "static/css/main.eed4c35f.css",
     "static/js/main.36b653f6.js"
   ]
 }
