@@ -40,6 +40,7 @@ export default function ActiveChatModal({ chats, closeModal }) {
                   src={chat.user.avatar}
                   alt="Avatar"
                   className={styles.avatar}
+                  loading="lazy"
                 />
                 <div className={styles.usersInfo}>
                   <span className={styles.userName}>{chat?.user?.id}</span>
