@@ -5,6 +5,7 @@ import {
   selectLoading,
   selectChats,
   selectChatById,
+  selectVisitedChatIds,
 } from "../redux/public/selectorsChats";
 
 export const useChats = () => {
@@ -14,6 +15,7 @@ export const useChats = () => {
   const errorChats = useSelector(selectError);
   const chats = useSelector(selectChats);
   const chatById = useSelector(selectChatById);
+  const visitedChatIds = useSelector(selectVisitedChatIds);
 
   return {
     activeChats,
@@ -22,5 +24,6 @@ export const useChats = () => {
     chats,
     chatById,
     dispatch,
+    visitedChatIds,
   };
 };

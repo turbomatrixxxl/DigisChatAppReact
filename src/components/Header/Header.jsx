@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 
 import { useChats } from "../../hooks/useChats";
 
 import clsx from "clsx";
+
+import ActiveChatModal from "../ActiveChatModal/ActiveChatModal";
 
 import { FaEllipsisH } from "react-icons/fa";
 
@@ -13,14 +15,15 @@ import styles from "./Header.module.css";
 
 function Header() {
   const { chatId } = useParams();
-  // console.log(chatId);
-
   const { chats } = useChats();
-
   const selectedChat = chats.find((chat) => chat.id === chatId);
 
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleModal = () => setShowModal((prev) => !prev);
+
   return (
-    <>
+    <div style={{ position: "relative" }}>
       <header className={clsx(styles.header)}>
         {selectedChat && (
           <div className={styles.chatInfo}>
@@ -35,11 +38,13 @@ function Header() {
             </div>
           </div>
         )}
-        <button className={clsx(styles.rightContButton)}>
+        <button className={clsx(styles.rightContButton)} onClick={toggleModal}>
           <FaEllipsisH size={16} className={styles.button} />
         </button>
       </header>
-    </>
+
+      {showModal && <ActiveChatModal chats={chats} closeModal={toggleModal} />}
+    </div>
   );
 }
 
