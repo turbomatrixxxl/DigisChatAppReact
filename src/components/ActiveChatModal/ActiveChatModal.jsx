@@ -8,7 +8,6 @@ export default function ActiveChatModal({ chats, closeModal }) {
   const modalRef = useRef();
   const { visitedChatIds } = useChats();
 
-  // Close the modal if clicked outside of it
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (modalRef.current && !modalRef.current.contains(event.target)) {
@@ -16,10 +15,8 @@ export default function ActiveChatModal({ chats, closeModal }) {
       }
     };
 
-    // Add the event listener
     document.addEventListener("mousedown", handleClickOutside);
 
-    // Cleanup the event listener on component unmount
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
@@ -55,7 +52,6 @@ export default function ActiveChatModal({ chats, closeModal }) {
   );
 }
 
-// Prop Types Validation
 ActiveChatModal.propTypes = {
   chats: PropTypes.arrayOf(
     PropTypes.shape({

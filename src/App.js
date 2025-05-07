@@ -10,7 +10,6 @@ import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 
 import "./App.css";
 
-// Lazy-loaded pages
 const LazyHomePage = React.lazy(() => import("./pages/HomePage/HomePage"));
 const LazyChatPage = React.lazy(() => import("./pages/ChatPage/ChatPage"));
 

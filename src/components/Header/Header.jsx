@@ -9,8 +9,6 @@ import ActiveChatModal from "../ActiveChatModal/ActiveChatModal";
 
 import { FaEllipsisH } from "react-icons/fa";
 
-// import NavModal from "../NavModal/NavModal";
-
 import styles from "./Header.module.css";
 
 function Header() {

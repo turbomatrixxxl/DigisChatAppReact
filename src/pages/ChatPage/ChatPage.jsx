@@ -69,7 +69,7 @@ export default function ChatPage() {
     );
     setMessage("");
     setShowEmojiPicker(false);
-    setFile(null); // Reset file state after sending the message
+    setFile(null);
   };
 
   const handleAttachClick = () => {
@@ -79,7 +79,7 @@ export default function ChatPage() {
   const handleFileChange = (e) => {
     const selectedFile = e.target.files[0];
     if (selectedFile) {
-      setFile(selectedFile); // Set the selected file to state
+      setFile(selectedFile);
     }
   };
 

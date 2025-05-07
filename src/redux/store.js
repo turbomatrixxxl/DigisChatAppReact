@@ -1,12 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
-import chatsReducer from "./public/chatsSlice"; // Import the default export
+import chatsReducer from "./public/chatsSlice";
 
 export const store = configureStore({
   reducer: {
-    chats: chatsReducer, // Use the reducer directly
+    chats: chatsReducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
-      serializableCheck: false, // Disable this middleware
+      serializableCheck: false,
     }),
 });

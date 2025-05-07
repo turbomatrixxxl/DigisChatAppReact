@@ -11,7 +11,6 @@ import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import "./styles/variables.css";
 
-// Use the correct basename based on the environment
 const basename =
   process.env.NODE_ENV === "production" ? "/DigisChatAppReact" : "/";
 

@@ -27,7 +27,6 @@ export const selectVisitedChatIds = createSelector(
   (chatsState) => chatsState.visitedChatIds
 );
 
-// Cached selectors by chatId to avoid re-creating selectors each time
 const chatByIdSelectorCache = {};
 
 export const selectChatById = (chatId) => {
