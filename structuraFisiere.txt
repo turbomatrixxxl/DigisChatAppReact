@@ -1,0 +1,29 @@
+   src |-components|-ActiveChatModal
+                   |-ChatsList 
+                   |-commonComponents |-FooterLogo
+                                      |-FormButton
+                                      |-Input
+                                      |-Loader
+                   |-Footer
+                   |-Header
+                   |-ModalFooter
+                   |-NavLinks
+                   |-NavModal
+                   |-SharedLayout
+       |-data-mock-chats.json
+       |-hooks |-useChats.js
+               |-useToggle.js
+       |-images |-icons -browser-error-404-icon.svg
+                |-Radu.webp
+       |-pages |-ChatPage
+               |-HomePage
+               |-NotFoundPage
+       |-redux |-public |-chatsSlice.js
+                        |-operationsChats.js
+                        |-selectorsChats.js
+               |-store.js
+       |-styles -vsriables.css
+       |-App.css
+       |-App.js
+       |-index.css
+       |-index.js                         
