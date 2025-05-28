@@ -7,8 +7,6 @@
                    |-Footer
                    |-Header
                    |-ModalFooter
-                   |-NavLinks
-                   |-NavModal
                    |-SharedLayout
        |-data-mock-chats.json
        |-hooks |-useChats.js
