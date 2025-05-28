@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/DigisChatAppReact/static/css/main.7e3b28b7.css",
-    "main.js": "/DigisChatAppReact/static/js/main.5efa4300.js",
+    "main.css": "/DigisChatAppReact/static/css/main.e8118b04.css",
+    "main.js": "/DigisChatAppReact/static/js/main.aa638f9e.js",
     "static/css/431.b9e9a408.chunk.css": "/DigisChatAppReact/static/css/431.b9e9a408.chunk.css",
     "static/js/431.d547f692.chunk.js": "/DigisChatAppReact/static/js/431.d547f692.chunk.js",
-    "static/css/434.43d8eee4.chunk.css": "/DigisChatAppReact/static/css/434.43d8eee4.chunk.css",
-    "static/js/434.3cb641a0.chunk.js": "/DigisChatAppReact/static/js/434.3cb641a0.chunk.js",
+    "static/css/434.b28afb2a.chunk.css": "/DigisChatAppReact/static/css/434.b28afb2a.chunk.css",
+    "static/js/434.60193257.chunk.js": "/DigisChatAppReact/static/js/434.60193257.chunk.js",
     "static/js/453.ca2aa976.chunk.js": "/DigisChatAppReact/static/js/453.ca2aa976.chunk.js",
-    "static/js/258.e52ba140.chunk.js": "/DigisChatAppReact/static/js/258.e52ba140.chunk.js",
+    "static/js/258.74b3c953.chunk.js": "/DigisChatAppReact/static/js/258.74b3c953.chunk.js",
     "static/media/Radu.webp": "/DigisChatAppReact/static/media/Radu.81d208868a8e3740db5e.webp",
     "index.html": "/DigisChatAppReact/index.html",
-    "main.7e3b28b7.css.map": "/DigisChatAppReact/static/css/main.7e3b28b7.css.map",
-    "main.5efa4300.js.map": "/DigisChatAppReact/static/js/main.5efa4300.js.map",
+    "main.e8118b04.css.map": "/DigisChatAppReact/static/css/main.e8118b04.css.map",
+    "main.aa638f9e.js.map": "/DigisChatAppReact/static/js/main.aa638f9e.js.map",
     "431.b9e9a408.chunk.css.map": "/DigisChatAppReact/static/css/431.b9e9a408.chunk.css.map",
     "431.d547f692.chunk.js.map": "/DigisChatAppReact/static/js/431.d547f692.chunk.js.map",
-    "434.43d8eee4.chunk.css.map": "/DigisChatAppReact/static/css/434.43d8eee4.chunk.css.map",
-    "434.3cb641a0.chunk.js.map": "/DigisChatAppReact/static/js/434.3cb641a0.chunk.js.map",
+    "434.b28afb2a.chunk.css.map": "/DigisChatAppReact/static/css/434.b28afb2a.chunk.css.map",
+    "434.60193257.chunk.js.map": "/DigisChatAppReact/static/js/434.60193257.chunk.js.map",
     "453.ca2aa976.chunk.js.map": "/DigisChatAppReact/static/js/453.ca2aa976.chunk.js.map",
-    "258.e52ba140.chunk.js.map": "/DigisChatAppReact/static/js/258.e52ba140.chunk.js.map"
+    "258.74b3c953.chunk.js.map": "/DigisChatAppReact/static/js/258.74b3c953.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e3b28b7.css",
-    "static/js/main.5efa4300.js"
+    "static/css/main.e8118b04.css",
+    "static/js/main.aa638f9e.js"
   ]
 }
